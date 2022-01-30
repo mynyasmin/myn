@@ -1,0 +1,57 @@
+html,
+body {
+  font-family: "Nunito", sans-serif;
+
+  background-image: url("../img/back.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+hr {
+  border: 2px solid rgba(251, 115, 63, 1);
+  border-radius: 20px;
+  width: 90%;
+}
+
+#avatarPic {
+  width: 250px;
+}
+
+#heading {
+  font-size: 3rem;
+  letter-spacing: 3px;
+}
+
+#headingFilmes {
+  letter-spacing: 3px;
+}
+
+#contactImg {
+  width: 50px;
+}
+
+@media (max-width: 768px) {
+  html,
+  body {
+    font-family: "Nunito", sans-serif;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+  #avatarPic {
+    width: 100px !important;
+  }
+  #heading {
+    font-size: 1.5rem;
+    letter-spacing: 3px;
+  }
+
+  #contactImg {
+    width: 20px;
+  }
+}
